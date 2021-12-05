@@ -7,7 +7,6 @@ class App extends Component {
     super(props);
     this.state = {
       viewCompleted: false,
-      trelloList: trelloItems,
       trelloList: [],
       modal: false,
       activeItem: {
